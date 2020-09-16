@@ -88,6 +88,7 @@
 <![endif]-->
 
   <script>
+		/*
 		var userAgent = navigator.userAgent || navigator.vendor || window.opera
 
 		// Windows Phone must come first because its UA also contains "Android"
@@ -103,6 +104,7 @@
 		if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
 			location.href='https://m.dong-gle.co.kr';
 		}
+		*/
 
 		$(document).ready(function(){
 			$.support.cors = true;
@@ -348,7 +350,12 @@
 					<li>대표자 : 최영하</li>
 					<li>개인정보 책임관리자 : 권경렬</li>
 				</ul>
-				<cite class="en">copyright 2020 DONGGLE all rights reserved.</cite>
+				<cite class="en">
+					<div class="policy">
+						<a href="https://test2.dong-gle.co.kr/privacy">개인정보처리방침</a> <a href="https://test2.dong-gle.co.kr/term">이용약관</a> 
+					</div>
+					copyright 2020 DONGGLE all rights reserved.
+				</cite>
 			</div>
 		</div>
 		<!-- //footer -->

@@ -546,6 +546,24 @@ background:url(../img/bg_merit.png) no-repeat right top;}
 #footer .footinfo ul li:before{display:none;}
 #footer .footinfo cite{display:block;text-align:left;width:100%;margin:0 auto;padding-top:8px;overflow:hidden;top:0;}
 }
+.policy{
+	text-align: left;
+	margin: 15px 0;
+}
+
+.policy a{
+	display: inline-block;
+	color: #666;
+}
+
+.policy a:first-child::after{
+	content: '';
+	display: inline-block;
+	width:1px;
+	height: 9px;
+	background-color: #ddd;
+	margin:0 10px;
+}
 
 
 @media screen and (max-width: 500px) {
